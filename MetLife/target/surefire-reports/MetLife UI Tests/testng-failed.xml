@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [MetLife UI Tests]" parallel="tests">
+  <parameter name="localPlatform" value="true"/>
+  <parameter name="" value=""/>
+  <parameter name="os" value="Windows 8"/>
+  <parameter name="browserVersion" value="32"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="userName" value="Gufran"/>
+  <parameter name="useSauceLabs" value="false"/>
+  <parameter name="key" value="a1a061ac-b843-4b1c-909a-6bdb30f9d447"/>
+  <parameter name="url" value="http://www.metlife.com"/>
+  <test name="Cnn on Windows-8 with Chrome Tests(failed)" parallel="tests">
+    <parameter name="os" value="Windows 8"/>
+    <parameter name="browserVersion" value="32"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Execution1.SearchString">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- Execution1.SearchString -->
+      <class name="Execution1.ProductServices">
+        <methods>
+          <include name="setUp"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- Execution1.ProductServices -->
+      <class name="Execution1.NavigationTabs">
+        <methods>
+          <include name="navigateBack"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Execution1.NavigationTabs -->
+    </classes>
+  </test> <!-- Cnn on Windows-8 with Chrome Tests(failed) -->
+</suite> <!-- Failed suite [MetLife UI Tests] -->

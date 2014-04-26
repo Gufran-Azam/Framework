@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MetLife UI Tests" duration-ms="224389" started-at="2014-04-23T01:09:36Z" finished-at="2014-04-23T01:13:21Z">
+    <groups>
+    </groups>
+    <test name="Cnn on Windows-8 with Chrome Tests" duration-ms="224389" started-at="2014-04-23T01:09:36Z" finished-at="2014-04-23T01:13:21Z">
+      <class name="Execution1.NavigationTabs">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Execution1.NavigationTabs@3886efbc]" name="setUp" is-config="true" duration-ms="16118" started-at="2014-04-22T21:09:36Z" finished-at="2014-04-22T21:09:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gufran]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[a1a061ac-b843-4b1c-909a-6bdb30f9d447]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.metlife.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Execution1.NavigationTabs@3886efbc]" name="test" duration-ms="17858" started-at="2014-04-22T21:09:53Z" finished-at="2014-04-22T21:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="navigateBack()[pri:0, instance:Execution1.NavigationTabs@3886efbc]" name="navigateBack" is-config="true" duration-ms="264" started-at="2014-04-22T21:10:10Z" finished-at="2014-04-22T21:10:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateBack -->
+      </class> <!-- Execution1.NavigationTabs -->
+      <class name="Execution1.ProductServices">
+        <test-method status="FAIL" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Execution1.ProductServices@6866da50]" name="setUp" is-config="true" duration-ms="0" started-at="2014-04-22T21:10:11Z" finished-at="2014-04-22T21:10:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gufran]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[a1a061ac-b843-4b1c-909a-6bdb30f9d447]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.metlife.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'Gufran', ip: '192.168.10.1', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'Gufran', ip: '192.168.10.1', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:589)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
+	at Base.AllMethods.setUpSauce(AllMethods.java:65)
+	at Base.AllMethods.setUp(AllMethods.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.http.client.ClientProtocolException
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:867)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:322)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:301)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:568)
+	... 25 more
+Caused by: org.apache.http.ProtocolException: Received redirect response HTTP/1.1 303 See Other but no location header
+	at org.apache.http.impl.client.DefaultRedirectStrategy.getLocationURI(DefaultRedirectStrategy.java:134)
+	at org.apache.http.impl.client.DefaultRedirectStrategy.getRedirect(DefaultRedirectStrategy.java:217)
+	at org.apache.http.impl.client.DefaultRequestDirector.handleResponse(DefaultRequestDirector.java:1065)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:514)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="test()[pri:0, instance:Execution1.ProductServices@6866da50]" name="test" duration-ms="1" started-at="2014-04-22T21:13:21Z" finished-at="2014-04-22T21:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="SKIP" signature="navigateBack()[pri:0, instance:Execution1.ProductServices@6866da50]" name="navigateBack" is-config="true" duration-ms="0" started-at="2014-04-22T21:13:21Z" finished-at="2014-04-22T21:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateBack -->
+      </class> <!-- Execution1.ProductServices -->
+      <class name="Execution1.SearchString">
+        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Execution1.SearchString@911d38e]" name="setUp" is-config="true" duration-ms="0" started-at="2014-04-22T21:13:21Z" finished-at="2014-04-22T21:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="test()[pri:0, instance:Execution1.SearchString@911d38e]" name="test" duration-ms="1" started-at="2014-04-22T21:13:21Z" finished-at="2014-04-22T21:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="SKIP" signature="navigateBack()[pri:0, instance:Execution1.SearchString@911d38e]" name="navigateBack" is-config="true" duration-ms="0" started-at="2014-04-22T21:13:21Z" finished-at="2014-04-22T21:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateBack -->
+      </class> <!-- Execution1.SearchString -->
+    </test> <!-- Cnn on Windows-8 with Chrome Tests -->
+  </suite> <!-- MetLife UI Tests -->
+</testng-results>
