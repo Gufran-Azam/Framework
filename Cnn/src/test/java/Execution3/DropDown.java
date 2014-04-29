@@ -20,7 +20,7 @@ public class DropDown extends AllMethods {
         WebElement element = getWebElementByCss(".cnn_tsbnav.cnn_pmtvmodddown select");
         List<String> listOfMenutext = getListOfString(".cnn_tsbnav.cnn_pmtvmodddown", " select option");
         System.out.println(dropDown.size());
-        for(int l=0;l<listOfMenutext.size();l++){
+        for(int l=1;l<listOfMenutext.size();l++){
             if(l==1 || l==3 || l==14 || l==24 || l==29){
                 continue;
 
