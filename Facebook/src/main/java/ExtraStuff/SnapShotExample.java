@@ -5,9 +5,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -18,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 public class SnapShotExample {
     WebDriver driver = null;
 
-    @BeforeClass
+   // @BeforeClass
     public void setUp() throws Exception {
 
         driver = new FirefoxDriver();
@@ -32,11 +29,11 @@ public class SnapShotExample {
 
         }
 
-    @Test
+   // @Test
     public void test() throws InterruptedException {
 
     }
-    @AfterClass
+   // @AfterClass
     public void tearDown() throws Exception {
         driver.quit();
     }

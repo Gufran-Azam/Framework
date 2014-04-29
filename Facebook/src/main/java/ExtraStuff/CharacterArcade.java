@@ -5,9 +5,6 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,7 +18,7 @@ public class CharacterArcade{
 
     WebDriver driver = null;
 
-    @BeforeClass
+   // @BeforeClass
     public void setUp() throws Exception {
 
         driver = new FirefoxDriver();
@@ -30,7 +27,7 @@ public class CharacterArcade{
         driver.manage().window().maximize();
     }
 
-    @Test
+   // @Test
     public void test() throws InterruptedException, IOException {
 
         WebDriverWait wait = new WebDriverWait(driver, 10);
@@ -48,7 +45,7 @@ public class CharacterArcade{
         FileUtils.copyFile(scrFile, new File("C:\\Users\\Gufran\\Desktop\\screenshot.jpeg"));
         Thread.sleep(2000);
 }
-    @AfterClass
+   // @AfterClass
     public void tearDown() throws Exception {
         driver.quit();
     }

@@ -1,31 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f26732a-b818-421d-a640-5fce9912693a" name="Default" comment="Snapshot Example on Facebo">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Facebook/src/test/java/Execution2/ButtomNavTabs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/test/java/Execution4/ExploreDepartments.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/JDBCClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/test/java/Execution4/MoreItemsToExplore.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/global/src/main/java/Base/AllMethods.java" afterPath="$PROJECT_DIR$/global/src/main/java/Base/AllMethods.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" afterPath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MetLife/src/test/java/Execution1/CheckYourQuote.java" afterPath="$PROJECT_DIR$/MetLife/src/test/java/Execution1/CheckYourQuote.java" />
+    <list default="true" id="5f26732a-b818-421d-a640-5fce9912693a" name="Default" comment="POM Changes&#10;">
+      <change type="DELETED" beforePath="C:\Users\Gufran\Desktop\Documents\PeoplenTech Documents\Class Notes(04-13-14) on Selenium-JAVA\FrameWorks\Framework\.idea\libraries\Maven__com_beust_jcommander_1_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gufran\Desktop\Documents\PeoplenTech Documents\Class Notes(04-13-14) on Selenium-JAVA\FrameWorks\Framework\.idea\libraries\Maven__junit_junit_3_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gufran\Desktop\Documents\PeoplenTech Documents\Class Notes(04-13-14) on Selenium-JAVA\FrameWorks\Framework\.idea\libraries\Maven__org_testng_testng_6_1_1.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/src/main/java/ExtraStuff/CharacterArcade.java" afterPath="$PROJECT_DIR$/Facebook/src/main/java/ExtraStuff/CharacterArcade.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/Cnn.iml" afterPath="$PROJECT_DIR$/Cnn/Cnn.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml" afterPath="$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/src/test/java/Execution2/CreatePage.java" afterPath="$PROJECT_DIR$/Facebook/src/test/java/Execution2/CreatePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/Facebook.iml" afterPath="$PROJECT_DIR$/Facebook/Facebook.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookRunner.xml" afterPath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/src/test/java/Execution3/LogIn.java" afterPath="$PROJECT_DIR$/Cnn/src/test/java/Execution3/LogIn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MetLife/src/test/resources/MetLifeRunner.xml" afterPath="$PROJECT_DIR$/MetLife/src/test/resources/MetLifeRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MetLife/src/test/java/Execution1/NavigationTabs.java" afterPath="$PROJECT_DIR$/MetLife/src/test/java/Execution1/NavigationTabs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MetLife/src/test/java/Execution1/ProductServices.java" afterPath="$PROJECT_DIR$/MetLife/src/test/java/Execution1/ProductServices.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MetLife/src/test/java/Execution1/RegisterAccount.java" afterPath="$PROJECT_DIR$/MetLife/src/test/java/Execution1/RegisterAccount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MetLife/src/test/java/Execution1/SearchString.java" afterPath="$PROJECT_DIR$/MetLife/src/test/java/Execution1/SearchString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/src/test/java/Execution3/TopUsStories.java" afterPath="$PROJECT_DIR$/Cnn/src/test/java/Execution3/TopUsStories.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/ExcelFileReader.java" afterPath="$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/ExcelFileReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/src/main/java/ExtraStuff/SnapShotExample.java" afterPath="$PROJECT_DIR$/Facebook/src/main/java/ExtraStuff/SnapShotExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/TopNav.java" afterPath="$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/TopNav.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/pom.xml" afterPath="$PROJECT_DIR$/Cnn/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/pom.xml" afterPath="$PROJECT_DIR$/Facebook/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Framework.iws" />
@@ -112,10 +97,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AllMethods.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/global/src/main/java/Base/AllMethods.java">
+      <file leaf-file-name="CnnRunner.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="192" column="0" selection-start="7082" selection-end="7082" vertical-scroll-proportion="0.0" vertical-offset="3111" max-vertical-offset="3536">
+            <state line="25" column="17" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CharacterArcade.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/ExtraStuff/CharacterArcade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="5" selection-start="1924" selection-end="1924" vertical-scroll-proportion="0.0" vertical-offset="487" max-vertical-offset="1037">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,37 +117,79 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MetLifeRunner.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MetLife/src/test/resources/MetLifeRunner.xml">
+      <file leaf-file-name="SnapShotExample.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/ExtraStuff/SnapShotExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="53" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="697">
+            <state line="31" column="5" selection-start="976" selection-end="976" vertical-scroll-proportion="1.4679666" vertical-offset="0" max-vertical-offset="782">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="30" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0" vertical-offset="395" max-vertical-offset="2499">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FacebookRunner.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookRunner.xml">
+      <file leaf-file-name="ExcelFileReader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/ExcelFileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="697">
+            <state line="14" column="15" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JDBCClass.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/JDBCClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="3" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="986">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CnnRunner.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml">
+      <file leaf-file-name="TopNav.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/TopNav.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="54" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="731">
+            <state line="14" column="5" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="646">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cnn/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="25" selection-start="1763" selection-end="1763" vertical-scroll-proportion="0.0" vertical-offset="1099" max-vertical-offset="1445">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AmazonRunner.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="55" selection-start="872" selection-end="872" vertical-scroll-proportion="0.37105262" vertical-offset="216" max-vertical-offset="748">
+            <state line="65" column="48" selection-start="2362" selection-end="2362" vertical-scroll-proportion="0.0" vertical-offset="762" max-vertical-offset="1394">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MetLife/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="36" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0" vertical-offset="626" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
@@ -184,7 +220,6 @@
         <option value="$PROJECT_DIR$/global/src/main/java/Base/AmazonMethods.java" />
         <option value="$PROJECT_DIR$/Cnn/src/test/java/Execution3/DropDown.java" />
         <option value="$PROJECT_DIR$/MetLife/pom.xml" />
-        <option value="$PROJECT_DIR$/Facebook/pom.xml" />
         <option value="$PROJECT_DIR$/Amazon/pom.xml" />
         <option value="$PROJECT_DIR$/global/pom.xml" />
         <option value="$PROJECT_DIR$/Cnn/src/test/java/Execution3/NavigationTabs.java" />
@@ -193,7 +228,6 @@
         <option value="$PROJECT_DIR$/Cnn/src/main/java/CnnCommon/Page.java" />
         <option value="$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/Page.java" />
         <option value="$PROJECT_DIR$/global/src/main/java/Base/DataReader.java" />
-        <option value="$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/ExcelFileReader.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/Execution4/WishListActivities.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/Execution4/AccountActivities.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/Execution4/MiddleNavigationTabs.java" />
@@ -206,23 +240,25 @@
         <option value="$PROJECT_DIR$/MetLife/src/test/java/Execution1/NavigationTabs.java" />
         <option value="$PROJECT_DIR$/MetLife/src/test/java/Execution1/ProductServices.java" />
         <option value="$PROJECT_DIR$/MetLife/src/test/java/Execution1/SearchString.java" />
-        <option value="$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/TopNav.java" />
-        <option value="$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/JDBCClass.java" />
-        <option value="$PROJECT_DIR$/Cnn/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/Execution4/ExploreDepartments.java" />
         <option value="$PROJECT_DIR$/Facebook/src/main/java/CharacterArcade.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/Execution2/ButtomNavTabs.java" />
         <option value="$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/Execution4/MoreItemsToExplore.java" />
-        <option value="$PROJECT_DIR$/Facebook/src/main/java/ExtraStuff/SnapShotExample.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookRunner.xml" />
-        <option value="$PROJECT_DIR$/Facebook/src/main/java/ExtraStuff/CharacterArcade.java" />
         <option value="$PROJECT_DIR$/Cnn/src/test/java/Execution3/LogIn.java" />
         <option value="$PROJECT_DIR$/Cnn/src/test/java/Execution3/TopUsStories.java" />
         <option value="$PROJECT_DIR$/global/src/main/java/Base/AllMethods.java" />
         <option value="$PROJECT_DIR$/MetLife/src/test/resources/MetLifeRunner.xml" />
         <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" />
+        <option value="$PROJECT_DIR$/Facebook/pom.xml" />
+        <option value="$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/ExcelFileReader.java" />
+        <option value="$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/TopNav.java" />
+        <option value="$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/JDBCClass.java" />
+        <option value="$PROJECT_DIR$/Cnn/pom.xml" />
+        <option value="$PROJECT_DIR$/Facebook/src/main/java/ExtraStuff/CharacterArcade.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/main/java/ExtraStuff/SnapShotExample.java" />
       </list>
     </option>
   </component>
@@ -874,7 +910,27 @@
       <created>1398726610420</created>
       <updated>1398726610420</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Various Changes">
+      <created>1398730960001</created>
+      <updated>1398730960002</updated>
+    </task>
+    <task id="LOCAL-00004" summary="POM Changes&#10;">
+      <created>1398733290912</created>
+      <updated>1398733290912</updated>
+    </task>
+    <task id="LOCAL-00005" summary="POM Changes&#10;">
+      <created>1398733312879</created>
+      <updated>1398733312879</updated>
+    </task>
+    <task id="LOCAL-00006" summary="POM Changes&#10;">
+      <created>1398734263147</created>
+      <updated>1398734263147</updated>
+    </task>
+    <task id="LOCAL-00007" summary="POM Changes&#10;">
+      <created>1398734275321</created>
+      <updated>1398734275321</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -894,7 +950,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20770393" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20770393" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20694864" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -920,7 +976,9 @@
     </option>
     <MESSAGE value="Snapshot Class is Added" />
     <MESSAGE value="Snapshot Example on Facebook&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Snapshot Example on Facebook&#10;" />
+    <MESSAGE value="Various Changes" />
+    <MESSAGE value="POM Changes&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="POM Changes&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -930,11 +988,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.5/testng-6.8.5.jar!/org/testng/SuiteRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="17" selection-start="2805" selection-end="2805" vertical-scroll-proportion="0.330855" vertical-offset="557" max-vertical-offset="2601" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.5/testng-6.8.5.jar!/org/testng/remote/RemoteTestNG.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="37" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.30689654" vertical-offset="761" max-vertical-offset="1156" />
@@ -978,13 +1031,6 @@
     <entry file="file://$PROJECT_DIR$/Amazon/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="54" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MetLife/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="34" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.7988981" vertical-offset="849" max-vertical-offset="1411">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.41.0/selenium-support-2.41.0.jar!/org/openqa/selenium/support/ui/Select.class">
@@ -1047,13 +1093,6 @@
         <state line="352" column="13" selection-start="12891" selection-end="12891" vertical-scroll-proportion="0.9731183" vertical-offset="4806" max-vertical-offset="12393" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="47" selection-start="2746" selection-end="2746" vertical-scroll-proportion="0.0" vertical-offset="1024" max-vertical-offset="1428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Framework.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374" />
@@ -1067,13 +1106,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar!/com/mysql/jdbc/JDBC4Connection.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="0" selection-start="2051" selection-end="2051" vertical-scroll-proportion="-10.88" vertical-offset="357" max-vertical-offset="731" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/JDBCClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/Execution4/ExploreDepartments.java">
@@ -1123,22 +1155,6 @@
         <state line="26" column="3" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="578" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="43" selection-start="1320" selection-end="1320" vertical-scroll-proportion="2.2014134" vertical-offset="159" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/TopNav.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="35" selection-start="612" selection-end="612" vertical-scroll-proportion="0.88148147" vertical-offset="102" max-vertical-offset="663">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/Execution4/ShopByDepartments.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="9" selection-start="278" selection-end="278" vertical-scroll-proportion="-1.1030928" vertical-offset="457" max-vertical-offset="952" />
@@ -1153,26 +1169,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/ExcelFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MetLife/src/test/java/Execution1/RegisterAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="47" selection-start="356" selection-end="356" vertical-scroll-proportion="-0.34210527" vertical-offset="351" max-vertical-offset="731">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/ExtraStuff/CharacterArcade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="27" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.8610354" vertical-offset="500" max-vertical-offset="1088">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1199,19 +1199,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="40" selection-start="2461" selection-end="2461" vertical-scroll-proportion="0.34736842" vertical-offset="1024" max-vertical-offset="2499">
+        <state line="30" column="0" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="697">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/ExtraStuff/SnapShotExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="16" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="833">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1222,24 +1213,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookRunner.xml">
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="697">
+        <state line="21" column="55" selection-start="872" selection-end="872" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="26" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="54" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="731">
+        <state line="25" column="17" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml">
+    <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="55" selection-start="872" selection-end="872" vertical-scroll-proportion="0.37105262" vertical-offset="216" max-vertical-offset="748">
+        <state line="65" column="48" selection-start="2362" selection-end="2362" vertical-scroll-proportion="0.0" vertical-offset="1048" max-vertical-offset="1394">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetLife/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="36" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0" vertical-offset="626" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/ExcelFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="15" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/TopNav.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="646">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/src/main/java/ExtraFiles/JDBCClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="30" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0" vertical-offset="395" max-vertical-offset="2499">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="25" selection-start="1763" selection-end="1763" vertical-scroll-proportion="0.0" vertical-offset="1099" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/ExtraStuff/CharacterArcade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="5" selection-start="1924" selection-end="1924" vertical-scroll-proportion="0.0" vertical-offset="487" max-vertical-offset="1037">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/ExtraStuff/SnapShotExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="5" selection-start="976" selection-end="976" vertical-scroll-proportion="1.4679666" vertical-offset="0" max-vertical-offset="782">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
