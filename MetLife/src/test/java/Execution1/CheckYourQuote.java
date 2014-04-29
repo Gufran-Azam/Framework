@@ -30,7 +30,8 @@ public class CheckYourQuote extends AllMethods {
         Thread.sleep(2000);
         navigateBack();
         waitUntilVisible(By.xpath("/html/body"));
-        //upload();
+
 
     }
-}
+    }
+

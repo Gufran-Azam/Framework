@@ -18,7 +18,7 @@ public class RegisterAccount extends AllMethods {
      ClickByCss(".registerLink");
         WebElement iframe = wd.findElement(By.cssSelector(".dijitDialogPaneContent iframe:nth-child(1)"));
         wd.switchTo().frame(iframe);
-     waitUntilVisible(By.xpath("html/body"));
+        waitUntilVisible(By.xpath("html/body"));
    //  typeByCss("#firstName", "Gufran");
         //iFrameHandling();
         typeByCss("input#firstName", "Gufran");
@@ -34,5 +34,7 @@ public class RegisterAccount extends AllMethods {
         Thread.sleep(4000);
         ClickByCss("#dijit_form_Button_1_label");
         wd.switchTo().defaultContent();
-}
+
+    }
+
 }

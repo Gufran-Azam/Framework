@@ -21,14 +21,14 @@
 
     <test name="Cnn on Windows-8 with Chrome Tests">
         <parameter name="os" value="Windows 8"/>
-        <!--<parameter name="browser" value="googlechrome"/>-->
         <parameter name="browser" value="chrome"/>
         <parameter name="browserVersion" value="32"/>
-        <!--<parameter name="browser" value="safari"/>-->
         <classes>
-            <!--<class name="Execution2.CreatePage"/>-->
+            <class name="Execution2.CreatePage"/>
             <class name="Execution2.FindGames"/>
-            <!--<class name="Execution2.CreatePage"/>-->
+            <class name="Execution2.ButtomNavTabs"/>
+            <class name="Execution2.FindFriends"/>
+
         </classes>
     </test>
     <!-- Test specific params are defined below this-->

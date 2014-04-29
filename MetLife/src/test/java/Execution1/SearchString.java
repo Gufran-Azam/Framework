@@ -42,6 +42,7 @@ public class SearchString extends AllMethods {
 
         wd.findElement(By.cssSelector("#hdLogo")).findElement(By.tagName("a")).click();
        Thread.sleep(1000);
+
     }
 }
 

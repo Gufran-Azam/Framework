@@ -33,4 +33,5 @@ public class CreatePage extends AllMethods {
         wd.switchTo().window(popUpWindow2);
 
     }
+
 }

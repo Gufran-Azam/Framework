@@ -4,6 +4,7 @@ import Base.AllMethods;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
 import java.util.Iterator;
 import java.util.Set;
 
@@ -14,7 +15,7 @@ public class LogIn extends AllMethods {
 
     @Test
     //This is Login to a separate window:
-    public void test() throws InterruptedException {
+    public void test() throws InterruptedException, IOException {
         Set<String> window = wd.getWindowHandles();
         Iterator it = window.iterator();
         String homewindow = wd.getWindowHandle();
@@ -32,6 +33,7 @@ public class LogIn extends AllMethods {
         typeByCss("input#cnnOverlayPwd","Mycnn786");
         wd.findElement(By.cssSelector(".cnnOvrlyBtn.cnnBtnLogIn")).click();
         wd.switchTo().window(homewindow);
+
         //sleep(5);
 
 

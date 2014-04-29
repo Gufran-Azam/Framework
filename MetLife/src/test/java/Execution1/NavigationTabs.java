@@ -30,7 +30,8 @@ public class NavigationTabs extends AllMethods {
             navTab = getWebElementsByCss("#hdMenuDiv" , "li"); //Refetch to store the item in the DOM or to make the item fresh
 
         }
+
     }
 
-
 }
+

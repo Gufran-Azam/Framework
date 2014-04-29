@@ -2,10 +2,8 @@ package Base;
 
 //import org.openqa.selenium;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -20,6 +18,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import java.io.File;
+import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -32,18 +32,6 @@ public class AllMethods {
 
     private static final String Timeouts = null;
     public WebDriver wd = null;
-
-//    @BeforeClass
-//    public void setUp() throws Exception {
-//        System.setProperty("webdriver.chrome.driver", "C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(03-29-14) on Selenium-JAVA/chromedriver.exe");
-//        //wd = new FirefoxDriver();
-//        wd = new ChromeDriver();
-//        wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-//        wd.navigate().to("http://www.metlife.com");
-//        wd.manage().window().maximize();
-//
-//    }
-
 
     @Parameters({"useSauceLabs","userName", "key", "os", "browser", "browserVersion", "url"})
     @BeforeClass
@@ -89,7 +77,7 @@ public class AllMethods {
             wd = new InternetExplorerDriver();
         }
 
-        wd.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         wd.navigate().to(url);
         wd.manage().window().maximize();
         return wd;
@@ -193,6 +181,21 @@ public class AllMethods {
         Select select = new Select(element);
         select.selectByVisibleText(value);
     }
+     public void ScreenShot() throws IOException {
+    File scrFile = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+    // Now you can do whatever you need to do with it, for example copy somewhere
+    FileUtils.copyFile(scrFile, new File("C:\\Users\\Gufran\\Desktop\\screenshot.jpeg"));
+}
+//    public void Rotation(){
+//        Object ScreenOrienation = null;
+//        ScreenOrientation orientation = ((Rotatable)wd).rotate(ScreenOrienation.));
+//    }
+
+    @AfterClass
+    public void tearDown() throws Exception {
+        wd.quit();
+    }
+
 
     }
 

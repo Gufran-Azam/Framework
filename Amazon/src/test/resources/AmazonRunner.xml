@@ -22,13 +22,13 @@
     <test name="Amazon on Windows-8 with chrome Tests">
         <parameter name="os" value="Windows 8"/>
         <parameter name="browser" value="chrome"/>
-        <!--<parameter name="browser" value="firefox"/>-->
         <parameter name="browserVersion" value="32"/>
-        <!--<parameter name="browser" value="safari"/>-->
         <classes>
-            <!--<class name="Execution4.AccountActivities"/>-->
+            <class name="Execution4.ExploreDepartments"/>
+            <!--<class name="Execution4.MoreItemsToExplore"/>-->
+            <class name="Execution4.AccountActivities"/>
             <class name="Execution4.WishListActivities"/>
-            <!--<class name="Execution4.MediaTabs"/>-->
+            <class name="Execution4.MediaTabs"/>
             <class name="Execution4.ShopByDepartments"/>
             <class name="Execution4.MiddleNavigationTabs"/>
 

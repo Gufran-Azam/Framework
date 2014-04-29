@@ -4,7 +4,7 @@
 
     <!-- If useSauce is false then all tests are on local-->
     <parameter name="useSauceLabs" value="false"/>
-    <parameter name="platform" value="true"/>
+    <parameter name="LocalPlatform" value="true"/>
     <parameter name="userName" value="Gufran"/>
     <parameter name="key" value="a1a061ac-b843-4b1c-909a-6bdb30f9d447"/>
     <parameter name="url" value="http://www.metlife.com"/>
@@ -21,16 +21,14 @@
 
     <test name="MetLife on Windows-8 with chrome Tests">
         <parameter name="os" value="Windows 8"/>
-        <!--<parameter name="browser" value="googlechrome"/>-->
         <parameter name="browser" value="chrome"/>
         <parameter name="browserVersion" value="32"/>
-        <!--<parameter name="browser" value="safari"/>-->
         <classes>
             <class name="Execution1.NavigationTabs"/>
-            <!--<class name="Execution1.ProductServices"/>-->
-            <!--<class name="Execution1.CheckYourQuote"/>-->
-            <!--<class name="Execution1.RegisterAccount"/>-->
-            <!--<class name="Execution1.SearchString"/>-->
+            <class name="Execution1.ProductServices"/>
+            <class name="Execution1.CheckYourQuote"/>
+            <class name="Execution1.RegisterAccount"/>
+            <class name="Execution1.SearchString"/>
         </classes>
     </test>
     <!-- Test specific params are defined below this-->
