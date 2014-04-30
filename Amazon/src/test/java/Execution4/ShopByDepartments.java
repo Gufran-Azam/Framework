@@ -25,6 +25,7 @@ public class ShopByDepartments extends AllMethods {
                 mouseHover("#nav-shop-all-button");
                 Thread.sleep(2000);
                 mouseHover("#nav_cat_0");
+                Thread.sleep(2000);
                 LinkTab.get(i).findElement(By.tagName("a")).click();
                 typeByCss("input#ap_email", "Gufy4U92@yahoo.com");
                 typeByCss("input#ap_password","BANKING");

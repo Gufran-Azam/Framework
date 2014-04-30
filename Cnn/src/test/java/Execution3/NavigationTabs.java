@@ -17,8 +17,8 @@ public class NavigationTabs extends AllMethods {
     public void test() throws InterruptedException {
     List<WebElement> navTab = getWebElementsByCss("#cnn_hdr-nav" , "li");
 
-    for(int i=0;i<navTab.size();i++){
-        if(i==1 || i==13 || i==14 || i==15){
+    for(int i=0;i<navTab.size()-1;i++){
+        if(i==1 || i==2 || i==13 || i==14 || i==15){
             navTab.get(i).findElement(By.tagName("a")).click();
             navigateBack();
         }

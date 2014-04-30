@@ -1,6 +1,8 @@
-package ExtraFiles;
+package Execution3;
 
 import Base.DataReader;
+import ExtraFiles.Page;
+import org.testng.annotations.Test;
 
 import java.io.IOException;
 
@@ -12,7 +14,7 @@ public class TopNav extends Page {
 
     DataReader dataReader = new DataReader();
     String [][] locators;
-   // @Test
+    @Test
     public void topNav1() throws IOException {
         String path = "C:\\Users\\Gufran\\Desktop\\Documents\\PeoplenTech Documents\\Class Notes(04-13-14) on Selenium-JAVA\\FrameWorks\\Framework\\excelfile2.xls";
         locators = dataReader.fileReader(path);

@@ -25,9 +25,10 @@
         <parameter name="browserVersion" value="32"/>
         <classes>
             <class name="Execution2.CreatePage"/>
-            <class name="Execution2.FindGames"/>
             <class name="Execution2.ButtomNavTabs"/>
             <class name="Execution2.FindFriends"/>
+            <class name="Execution2.FindGames"/>
+            <class name="Execution2.SnapShotExample"/>
 
         </classes>
     </test>

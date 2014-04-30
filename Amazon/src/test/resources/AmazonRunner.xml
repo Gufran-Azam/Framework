@@ -29,8 +29,8 @@
             <class name="Execution4.AccountActivities"/>
             <class name="Execution4.WishListActivities"/>
             <class name="Execution4.MediaTabs"/>
-            <class name="Execution4.ShopByDepartments"/>
             <class name="Execution4.MiddleNavigationTabs"/>
+            <class name="Execution4.ShopByDepartments"/>
 
         </classes>
     </test>
