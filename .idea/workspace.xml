@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f26732a-b818-421d-a640-5fce9912693a" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\Gufran\Desktop\Documents\PeoplenTech Documents\Class Notes(04-13-14) on Selenium-JAVA\FrameWorks\Framework\Cnn\src\main\java\ExtraFiles\ExcelFileReader.java" afterPath="$PROJECT_DIR$/Cnn/src/test/java/Execution3/ExcelFileReader.java" />
-      <change type="MOVED" beforePath="C:\Users\Gufran\Desktop\Documents\PeoplenTech Documents\Class Notes(04-13-14) on Selenium-JAVA\FrameWorks\Framework\Cnn\src\main\java\ExtraFiles\TopNav.java" afterPath="$PROJECT_DIR$/Cnn/src/test/java/Execution3/TopNav.java" />
-      <change type="MOVED" beforePath="C:\Users\Gufran\Desktop\Documents\PeoplenTech Documents\Class Notes(04-13-14) on Selenium-JAVA\FrameWorks\Framework\Facebook\src\main\java\ExtraStuff\SnapShotExample.java" afterPath="$PROJECT_DIR$/Facebook/src/test/java/Execution2/SnapShotExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" afterPath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml" afterPath="$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/src/test/java/Execution3/DropDown.java" afterPath="$PROJECT_DIR$/Cnn/src/test/java/Execution3/DropDown.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookRunner.xml" afterPath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/src/test/java/Execution2/FindGames.java" afterPath="$PROJECT_DIR$/Facebook/src/test/java/Execution2/FindGames.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/src/test/java/Execution3/NavigationTabs.java" afterPath="$PROJECT_DIR$/Cnn/src/test/java/Execution3/NavigationTabs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/src/test/java/Execution4/ShopByDepartments.java" afterPath="$PROJECT_DIR$/Amazon/src/test/java/Execution4/ShopByDepartments.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/Facebook.iml" afterPath="$PROJECT_DIR$/Facebook/Facebook.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Framework.iws" />
@@ -101,16 +94,45 @@
       <file leaf-file-name="AllMethods.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/global/src/main/java/Base/AllMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="187" column="1" selection-start="6915" selection-end="6915" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="3179">
+            <state line="27" column="3" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="3536">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CnnRunner.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="47" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.28169015" vertical-offset="376" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AmazonRunner.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AmazonRunner.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="57" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.1859155" vertical-offset="376" max-vertical-offset="748">
+            <state line="26" column="57" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0" vertical-offset="376" max-vertical-offset="748">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetLifeRunner.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MetLife/src/test/resources/MetLifeRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="58" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="697">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FacebookRunner.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="23" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -151,10 +173,8 @@
         <option value="$PROJECT_DIR$/MetLife/src/test/java/Execution1/CheckYourQuote.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/Execution2/CreatePage.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/Execution2/FindFriends.java" />
-        <option value="$PROJECT_DIR$/MetLife/src/test/java/Execution1/NavigationTabs.java" />
         <option value="$PROJECT_DIR$/MetLife/src/test/java/Execution1/ProductServices.java" />
         <option value="$PROJECT_DIR$/MetLife/src/test/java/Execution1/SearchString.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/Execution4/ExploreDepartments.java" />
         <option value="$PROJECT_DIR$/Facebook/src/main/java/CharacterArcade.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/Execution2/ButtomNavTabs.java" />
@@ -177,9 +197,11 @@
         <option value="$PROJECT_DIR$/Cnn/src/test/java/Execution3/TopNav.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/Execution2/SnapShotExample.java" />
         <option value="$PROJECT_DIR$/Cnn/src/test/java/Execution3/NavigationTabs.java" />
-        <option value="$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/Execution2/FindGames.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookRunner.xml" />
+        <option value="$PROJECT_DIR$/MetLife/src/test/java/Execution1/NavigationTabs.java" />
+        <option value="$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -321,36 +343,7 @@
       <recent name="C:\Users\Gufran\Desktop\Documents\PeoplenTech Documents\Class Notes(04-06-14) on Selenium-JAVA\Eclipse-intelliJ Files\Framework\Amazon\src\main\Methods" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Facebook/src/test/resources/FacebookRunner.xml (1)">
-    <configuration default="false" name="$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Cnn" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Cnn/src/test/resources/CnnRunner.xml">
     <configuration default="false" name="$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Cnn" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -443,6 +436,35 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookRunner.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cnn" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
@@ -779,19 +801,19 @@
       <item index="2" class="java.lang.String" itemvalue="TestNG.FindFriends.test" />
       <item index="3" class="java.lang.String" itemvalue="TestNG.WishListActivities.test" />
       <item index="4" class="java.lang.String" itemvalue="TestNG.NavigationTabs" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Cnn/src/test/resources/CnnRunner.xml (1)" />
-      <item index="6" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Cnn/src/test/resources/CnnRunner.xml (2)" />
-      <item index="7" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Cnn/src/test/resources/CnnRunner.xml (3)" />
-      <item index="8" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Facebook/src/test/resources/FacebookRunner.xml" />
-      <item index="9" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Facebook/src/test/resources/FacebookRunner.xml (1)" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Cnn/src/test/resources/CnnRunner.xml (2)" />
+      <item index="6" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Cnn/src/test/resources/CnnRunner.xml (3)" />
+      <item index="7" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Facebook/src/test/resources/FacebookRunner.xml" />
+      <item index="8" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Facebook/src/test/resources/FacebookRunner.xml (1)" />
+      <item index="9" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Cnn/src/test/resources/CnnRunner.xml" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Facebook/src/test/resources/FacebookRunner.xml (1)" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Facebook/src/test/resources/FacebookRunner.xml" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Cnn/src/test/resources/CnnRunner.xml (3)" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Cnn/src/test/resources/CnnRunner.xml (2)" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Cnn/src/test/resources/CnnRunner.xml (1)" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Cnn/src/test/resources/CnnRunner.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Facebook/src/test/resources/FacebookRunner.xml (1)" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Facebook/src/test/resources/FacebookRunner.xml" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Cnn/src/test/resources/CnnRunner.xml (3)" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/Gufran/Desktop/Documents/PeoplenTech Documents/Class Notes(04-13-14) on Selenium-JAVA/FrameWorks/Framework/Cnn/src/test/resources/CnnRunner.xml (2)" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -863,7 +885,11 @@
       <created>1398738938989</created>
       <updated>1398738938989</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Major Changes">
+      <created>1398821337322</created>
+      <updated>1398821337322</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -877,7 +903,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41385436" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29591838" sideWeight="0.10876133" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3232682" sideWeight="0.10876133" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -887,7 +913,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20694864" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3232682" sideWeight="0.8912387" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3232682" sideWeight="0.8912387" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -913,7 +939,8 @@
     <MESSAGE value="POM Changes&#10;" />
     <MESSAGE value="Test Annotation Changes&#10;" />
     <MESSAGE value="Class Changes&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class Changes&#10;" />
+    <MESSAGE value="Major Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Major Changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -985,13 +1012,6 @@
     <entry file="file://$PROJECT_DIR$/MetLife/src/test/java/Execution1/SearchString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="7" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.4785276" vertical-offset="507" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MetLife/src/test/java/Execution1/NavigationTabs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="899" selection-end="899" vertical-scroll-proportion="0.5590778" vertical-offset="299" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
@@ -1114,21 +1134,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="5" selection-start="3811" selection-end="3811" vertical-scroll-proportion="0.0" vertical-offset="2132" max-vertical-offset="2499">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MetLife/src/test/resources/MetLifeRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="55" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/Execution3/DropDown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="918" />
+        <state line="29" column="0" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="918">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/Execution4/ShopByDepartments.java">
@@ -1152,15 +1164,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/Execution3/ExcelFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="697">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/Execution3/LogIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="30" selection-start="881" selection-end="881" vertical-scroll-proportion="0.044573642" vertical-offset="334" max-vertical-offset="850">
@@ -1172,7 +1175,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="3" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1195,39 +1198,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/Execution3/NavigationTabs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="39" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="185" max-vertical-offset="680">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/Execution2/FindGames.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="38" selection-start="114" selection-end="114" vertical-scroll-proportion="0.19883041" vertical-offset="0" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="23" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.52112675" vertical-offset="308" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="19" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.28169015" vertical-offset="376" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/global/src/main/java/Base/AllMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="1" selection-start="6915" selection-end="6915" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="3179">
           <folding />
         </state>
       </provider>
@@ -1239,9 +1212,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="23" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetLife/src/test/resources/MetLifeRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="58" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global/src/main/java/Base/AllMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="3" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="3536">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="57" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.1859155" vertical-offset="376" max-vertical-offset="748">
+        <state line="26" column="57" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0" vertical-offset="376" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetLife/src/test/java/Execution1/NavigationTabs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="41" selection-start="544" selection-end="544" vertical-scroll-proportion="0.39252338" vertical-offset="146" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/Execution3/NavigationTabs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="27" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="185" max-vertical-offset="680">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/Execution3/ExcelFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="697">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="25" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.6137072" vertical-offset="1010" max-vertical-offset="2584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/CnnRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="47" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.28169015" vertical-offset="376" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
