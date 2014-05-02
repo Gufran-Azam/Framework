@@ -15,11 +15,13 @@ public class LogIn extends AllMethods {
 
     @Test
     //This is Login to a separate window:
-    public void test() throws InterruptedException, IOException {
+    public void test() throws IOException {
+        waitUntilVisible(By.xpath("//*[@id=\"cnnMainPage\"]"));
         Set<String> window = wd.getWindowHandles();
         Iterator it = window.iterator();
         String homewindow = wd.getWindowHandle();
-        wd.findElement(By.xpath(".//*[@id='hdr-auth']/ul/li[2]/a")).click();
+        wd.findElement(By.xpath("//*[@id=\"hdr-auth\"]/ul/li[2]/a")).click();
+     //   wd.findElement(By.xpath(".//*[@id='hdr-auth']/ul/li[2]/a")).click();
         window = wd.getWindowHandles();
         it = window.iterator();
         String popUpWindow = (String) it.next();
@@ -31,9 +33,10 @@ public class LogIn extends AllMethods {
         wd.switchTo().window(popUpWindow2);
         typeByCss("input#cnnOverlayEmail1l","gufran.azam1992@gmail.com");
         typeByCss("input#cnnOverlayPwd","Mycnn786");
+        ScreenShot();
         wd.findElement(By.cssSelector(".cnnOvrlyBtn.cnnBtnLogIn")).click();
         wd.switchTo().window(homewindow);
-
+        //Thread.sleep(3000);
         //sleep(5);
 
 
