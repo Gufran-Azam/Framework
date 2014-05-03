@@ -28,7 +28,7 @@
             <class name="Execution3.LogIn"/>
             <class name="Execution3.DropDown"/>
             <class name="Execution3.TopNav"/>
-            <class name="Execution3.ExcelFileReader"/>
+            <!--<class name="Execution3.ExcelFileReader"/>-->
             <!--<class name="Execution3.NavigationTabs"/>-->
 
         </classes>
