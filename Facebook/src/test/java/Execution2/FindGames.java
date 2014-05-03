@@ -30,7 +30,7 @@ public class FindGames extends AllMethods {
 
         List<WebElement> LinkTab = getWebElementsByCss("#sideNav", "li");
         System.out.println(LinkTab.size());
-        for(int i=0;i<LinkTab.size()-6;i++){
+        for(int i=1;i<LinkTab.size()-6;i++){
 
             LinkTab.get(i).findElement(By.tagName("a")).click();
             Thread.sleep(2000);
