@@ -112,9 +112,6 @@
     <module>global</module>
     <module>Cnn</module>
 </modules>
-    <activation>
-        <activeByDefault>true</activeByDefault>
-    </activation>
 </profile>
  <profile>
      <id>Facebook-app</id>
