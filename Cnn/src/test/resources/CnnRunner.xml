@@ -21,8 +21,8 @@
 
     <test name="Cnn on Windows-8 with chrome Tests">
         <parameter name="os" value="Windows 8"/>
-        <parameter name="browser" value="firefox"/>
-        <parameter name="browserVersion" value="28"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="browserVersion" value="32"/>
         <classes>
             <class name="Execution3.TopUsStories"/>
             <class name="Execution3.LogIn"/>
