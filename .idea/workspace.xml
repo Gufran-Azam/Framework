@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f26732a-b818-421d-a640-5fce9912693a" name="Default" comment="Few Changes&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/global/src/main/java/Base/AllMethods.java" afterPath="$PROJECT_DIR$/global/src/main/java/Base/AllMethods.java" />
+    <list default="true" id="5f26732a-b818-421d-a640-5fce9912693a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Framework.iws" />
@@ -101,7 +100,7 @@
       <file leaf-file-name="FacebookRunner.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="23" selection-start="1155" selection-end="1159" vertical-scroll-proportion="0.46041057" vertical-offset="302" max-vertical-offset="714">
+            <state line="29" column="48" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.5601173" vertical-offset="302" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -896,7 +895,11 @@
       <created>1399086698230</created>
       <updated>1399086698230</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Few Changes&#10;">
+      <created>1399088483406</created>
+      <updated>1399088483406</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1296,7 +1299,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="23" selection-start="1155" selection-end="1159" vertical-scroll-proportion="0.46041057" vertical-offset="302" max-vertical-offset="714">
+        <state line="29" column="48" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.5601173" vertical-offset="302" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
