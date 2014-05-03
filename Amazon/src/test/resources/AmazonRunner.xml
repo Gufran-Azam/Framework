@@ -26,6 +26,7 @@
         <classes>
             <class name="Execution4.ExploreDepartments"/>
             <!--<class name="Execution4.MoreItemsToExplore"/>-->
+            <!--<class name="Execution4.AllDepartmentsOptions"/>-->
             <class name="Execution4.AccountActivities"/>
             <class name="Execution4.WishListActivities"/>
             <class name="Execution4.MediaTabs"/>

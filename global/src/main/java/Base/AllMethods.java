@@ -186,10 +186,6 @@ public class AllMethods {
     // Now you can do whatever you need to do with it, for example copy somewhere
     FileUtils.copyFile(scrFile, new File("C:\\Users\\Gufran\\Desktop\\screenshot.jpeg"));
 }
-//    public void Rotation(){
-//        Object ScreenOrienation = null;
-//        ScreenOrientation orientation = ((Rotatable)wd).rotate(ScreenOrienation.));
-//    }
 
     @AfterClass
     public void tearDown() throws Exception {

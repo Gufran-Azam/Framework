@@ -24,12 +24,12 @@
         <parameter name="browser" value="chrome"/>
         <parameter name="browserVersion" value="32"/>
         <classes>
-            <!--<class name="Execution3.TopUsStories"/>-->
+            <class name="Execution3.TopUsStories"/>
             <class name="Execution3.LogIn"/>
-            <!--<class name="Execution3.DropDown"/>-->
-            <!--<class name="Execution3.TopNav"/>-->
-            <!--<class name="Execution3.ExcelFileReader"/>-->
-            <!--<class name="Execution3.NavigationTabs"/>-->
+            <class name="Execution3.DropDown"/>
+            <class name="Execution3.TopNav"/>
+            <class name="Execution3.ExcelFileReader"/>
+            <class name="Execution3.NavigationTabs"/>
 
         </classes>
     </test>
