@@ -191,8 +191,6 @@ public class AllMethods {
     public void tearDown() throws Exception {
         wd.quit();
     }
-
-
     }
 
 
