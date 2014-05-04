@@ -15,7 +15,7 @@ import java.io.IOException;
 public class DataReader {
       int numberOfRows, numberOfColumns;
 
-    String world,politics,justice,tech;
+    // world,politics,justice,tech;
     //file reader method which will read file from excel sheet
     public String[][] fileReader(String file) throws IOException {
         String [][] dataContainer;

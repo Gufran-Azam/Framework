@@ -158,6 +158,13 @@ public class AllMethods {
         Actions hover = build.moveToElement(element);
         hover.perform();
     }
+    //Mouse Hover;move to the element that reveals the others, then during
+    // the same chain, move to the now revealed element and click on it.
+    public void mouseHover2(String locator1, String locator2){
+        Actions action = new Actions(wd);
+        WebElement element = wd.findElement(By.cssSelector(locator1));
+        action.moveToElement(element).moveToElement(wd.findElement(By.cssSelector(locator2))).click().build().perform();
+    }
     //Synchronization
     public void waitUntilClickable(By locator){
         WebDriverWait wait = new WebDriverWait(wd, 10);

@@ -15,15 +15,15 @@ public class MoreItemsToExplore extends AllMethods {
     @Test
     public void test() throws InterruptedException {
 
-    List<WebElement> LinkTab = getWebElementsByCss(".s9OtherItems div", "div");
+    List<WebElement> LinkTab = wd.findElements(By.cssSelector("div.s9OtherItems .fluid .inner .s9h1"));
     System.out.println(LinkTab.size());
-    for(int i=2;i<LinkTab.size();i++){
+    for(int i=0;i<LinkTab.size();i++){
 
-        LinkTab.get(i).findElement(By.cssSelector(".fluid .inner .s9hl a")).click();
+        LinkTab.get(i).findElement(By.cssSelector("a")).click();
         Thread.sleep(2000);
         navigateBack();
         Thread.sleep(2000);
-        LinkTab = getWebElementsByCss(".s9OtherItems div", "div");//Refetch to store the item in the DOM or to make the item fresh
+        LinkTab = wd.findElements(By.cssSelector("div.s9OtherItems div.fluid div.inner div.s9h1"));//Refetch to store the item in the DOM or to make the item fresh
 
     }
 }

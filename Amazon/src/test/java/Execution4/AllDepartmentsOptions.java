@@ -15,12 +15,11 @@ public class AllDepartmentsOptions extends AllMethods {
         waitUntilVisible(By.xpath("/html/body"));
         mouseHover("#nav-shop-all-button");
         for(int i=1;i<18;i++){
-            for(int j=2;j<5;j++){
-//                mouseHover("#nav-shop-all-button");
-                mouseHover("#nav_cats li:nth-child(" + i + ")");
+            for(int j=1;j<5;j++){
+                mouseHover2(("#nav_cats li:nth-child(" + i + ""),(".nav_browse_ul.nav_browse_cat_ul li:nth-child(" + j + ""));
+              // ClickByCss(".nav_browse_ul.nav_browse_cat_ul li:nth-child(" + j + "");
                 Thread.sleep(1000);
-                mouseHover(".nav_browse_ul.nav_browse_cat_ul li:nth-child(" + j + "");
-
+               // mouseHover(".nav_browse_ul.nav_browse_cat_ul li:nth-child(" + j + "");
             }
             }
 
